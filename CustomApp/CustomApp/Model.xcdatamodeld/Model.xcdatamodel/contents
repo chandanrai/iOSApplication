@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12C60" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Athlete" representedClassName="Athlete" syncable="YES">
+        <attribute name="athleteId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Favorite" representedClassName="Favorite" syncable="YES">
+        <attribute name="athleteId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Headlines" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Match" representedClassName="Match" syncable="YES">
+        <attribute name="matchId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="team1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="team2" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Athlete" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Headlines" positionX="-99" positionY="110" width="128" height="73"/>
+        <element name="Match" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="Favorite" positionX="160" positionY="192" width="128" height="60"/>
+    </elements>
+</model>
